@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    
+    .imagenCuadrada{
+        border-radius: 50%;
+        border-style: solid;
+        border-color:black;
+    }
+
+    .contenedorImagenAlargada{
+        position:relative;
+        width: 25vw ;
+        height: 25vw;
+        overflow:hidden;
+        border-radius:50%
+    }
+
+
+    .imagenAlargada{
+        width:100%;
+        height:auto;
+    }
+
+    .contenedorImagenAncha{
+        position:relative;
+        width: 25vw ;
+        height: 25vw;
+        overflow:hidden;
+        border-radius:50%
+    }
+    
+    .imagenAncha{
+        width:auto;
+        height:100%;
+        margin-left: -7vw;
+    }
+    
+    
+    </style>
+    <title>Codigo para redondear imagenes</title>
+</head>
+<body>
+   
+            <img class="imagenCuadrada" src="imagenes/esmeralda.jpeg" alt="Esmeralda" >
+            <h3>Imagen de Esmeralda tomada revista Quien.com originalmente cuadrada 360x360</h3>
+   
+   
+    <div class="contenedorImagenAlargada">           
+                <img class="imagenAlargada" src="imagenes/pampita.jpeg" alt="Pampita">            
+          
+
+    </div>
+    <h3>Imagen de Pampita tomada revista Caras de 518x920</h3>
+    
+<div class="contenedorImagenAncha">
+    <img src="imagenes/irelanda.jpg" alt="Irealda" class="imagenAncha">
+    
+</div>
+<h3>Imagen Irealda Baldwin tomada de elsalvador.com 900x506</h3>
+
+</body>
+</html>
